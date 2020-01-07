@@ -16,15 +16,16 @@ body {
     clear: both;
   }
   
-  h1,
-  h2,
-  h3,
-  p {
-    margin-bottom: 30px;
-
-    p:last-child {
-      margin-bottom: 0;
-    }
+  
+    h1,
+    h2,
+    h3,
+    p {
+        margin-bottom: 30px;
+    
+    p {last-child 
+        margin-bottom: 0;
+        }
     
     h1,
     h2,
@@ -54,9 +55,10 @@ body {
       width: 100%;
       margin: 0 0 30px;
       overflow: auto;
-      color: #ffffff;
+      color: navy;
       background: #ffffff;
       border-bottom: 2px solid #cccccc;
+      text-align: right;
     }
     
     #logo {
@@ -176,6 +178,7 @@ body {
   
   #contact-form ul {
     margin-bottom: 20px;
+
   }
   
   #contact-form li {
