@@ -2,12 +2,15 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 18px;
     line-height: 34px;
-    background-color: lightcoral;
+    color: navy;
+    background: url("https://images.unsplash.com/photo-1462556791646-c201b8241a94?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60");
   }
 
   * {
     box-sizing: border-box;
   }
+
+  /*general */ 
 
   .container {
     width: 100%;
@@ -21,18 +24,19 @@ body {
     h2,
     h3,
     p {
-        margin-bottom: 30px;
+        margin-bottom: 20px;
+    }
     
-    p {last-child 
+    p:last-child {
         margin-bottom: 0;
-        }
+    }
     
     h1,
     h2,
     h3 {
-      font-family: Georgia, Times, "Times New Roman", serif;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
       font-weight: 700;
-      color: #4aaaa5;
+      color: darkgrey ;
     }
     
     h1 {
@@ -55,10 +59,9 @@ body {
       width: 100%;
       margin: 0 0 30px;
       overflow: auto;
-      color: navy;
+      color:#ffffff;
       background: #ffffff;
       border-bottom: 2px solid #cccccc;
-      text-align: right;
     }
     
     #logo {
@@ -72,12 +75,13 @@ body {
       color: #ffffff;
       text-align: center;
       text-decoration: none;
-      background: #4aaaa5;
+      background: lightslategray;
     }
     
     nav {
-      float: center;
+      float: right;
       margin-top: 25px;
+      overflow: hidden;
     }
     
     nav a {
@@ -101,12 +105,14 @@ body {
       clear: both;
       font-size: 12px;
       color: #ffffff;
-      color: #cccccc;
       text-align: center;
-      background: #666666;
-      border-top: 8px solid #4aaaa5;
+      background-color: #666666;
+      border-top: 8px solid navy;
       height: 50px;
+      position: center;
+    
     }
+
     
     h3, h2 {
       padding-bottom: 20px;
@@ -125,16 +131,16 @@ body {
     .main-section {
       float: left;
       width: 100%;
-      max-width: 960px;
+      max-width: 100%;
       padding: 30px;
       margin: 0 0 40px;
       background: #ffffff;
       border: 1px solid #dddddd;
     }
 
-    /* portfolio page */
+     /* portfolio page */
 
-.work {
+   .work {
     position: relative;
     float: left;
     width: 274px;
@@ -150,6 +156,9 @@ body {
     width: 100%;
     border: 0 none;
     opacity: 0.8;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
   
   .work h3 {
@@ -173,11 +182,24 @@ body {
     margin-top: 10px;
     margin-right: 25px;
   }
+
+  .footer {
+    padding: 30px 0;
+    clear: both;
+    font-size: 12px;
+    color: #ffffff;
+    text-align: center;
+    background-color: hsl(0, 0%, 40%);
+    border-top: 8px solid navy;
+    height: 50px;
+    position: center;
   
+  }
+
   /* contact page */
-  
+
   #contact-form ul {
-    margin-bottom: 20px;
+    margin-bottom: 0 auto;
 
   }
   
@@ -215,3 +237,25 @@ body {
     border: 0 none;
   }
   
+  /* Bootstrap Media Queries */
+  /* For Desktop */
+  @media only screen and (max-width: 980px) {
+    body {
+      background-color: lightblue;
+    }
+  }
+
+  /* For Ipad */
+  @media only screen and (max-width: 768px) {
+    body {
+      background-color: lightblue;
+    }
+  }
+
+  /* For Iphone */
+
+  @media only screen and (max-width: 640px) {
+    body {
+      background-color: lightblue;
+    }
+  }
