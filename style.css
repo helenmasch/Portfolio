@@ -236,26 +236,3 @@ body {
     background: #4aaaa5;
     border: 0 none;
   }
-  
-  /* Bootstrap Media Queries */
-  /* For Desktop */
-  @media only screen and (max-width: 980px) {
-    body {
-      background-color: lightblue;
-    }
-  }
-
-  /* For Ipad */
-  @media only screen and (max-width: 768px) {
-    body {
-      background-color: lightblue;
-    }
-  }
-
-  /* For Iphone */
-
-  @media only screen and (max-width: 640px) {
-    body {
-      background-color: lightblue;
-    }
-  }
