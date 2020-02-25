@@ -19,38 +19,6 @@ body {
     clear: both;
   }
   
-  
-    h1,
-    h2,
-    h3,
-    p {
-        margin-bottom: 20px;
-    }
-    
-    p:last-child {
-        margin-bottom: 0;
-    }
-    
-    h1,
-    h2,
-    h3 {
-      font-family: Verdana, Geneva, Tahoma, sans-serif;
-      font-weight: 700;
-      color: darkgrey ;
-    }
-    
-    h1 {
-      padding-bottom: 20px;
-      font-size: 30px;
-      line-height: 49px;
-      border-bottom: 3px solid #dddddd;
-    }
-    
-    h2,
-    h3 {
-      font-size: 22px;
-    }
-    
     /* header */
     
     #masthead {
