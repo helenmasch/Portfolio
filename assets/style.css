@@ -17,66 +17,14 @@ body {
     max-width: 960px;
     margin: 0 auto;
     clear: both;
+    color:navy;
+    font-size: 18px;
   }
-  
-  
-    h1,
-    h2,
-    h3,
+ 
     p {
         margin-bottom: 20px;
     }
-    
-    p:last-child {
-        margin-bottom: 0;
-    }
-    
-    h1,
-    h2,
-    h3 {
-      font-family: Verdana, Geneva, Tahoma, sans-serif;
-      font-weight: 700;
-      color: darkgrey ;
-    }
-    
-    h1 {
-      padding-bottom: 20px;
-      font-size: 30px;
-      line-height: 49px;
-      border-bottom: 3px solid #dddddd;
-    }
-    
-    h2,
-    h3 {
-      font-size: 22px;
-    }
-    
-    /* header */
-    
-    #masthead {
-      position: fixed;
-      z-index: 99;
-      width: 100%;
-      margin: 0 0 30px;
-      overflow: auto;
-      color:#ffffff;
-      background: #ffffff;
-      border-bottom: 2px solid #cccccc;
-    }
-    
-    #logo {
-      float: left;
-      width: 250px;
-      height: 90px;
-      font-family: Georgia, Times, "Times New Roman", serif;
-      font-size: 30px;
-      font-weight: 700;
-      line-height: 90px;
-      color: #ffffff;
-      text-align: center;
-      text-decoration: none;
-      background: lightslategray;
-    }
+
     
     nav {
       float: right;
@@ -114,11 +62,12 @@ body {
     }
 
     
-    h3, h2 {
+    h1 {
       padding-bottom: 20px;
       margin-bottom: 15px;
       line-height: 22px;
       border-bottom: 2px solid #eeeeee;
+      text-align: center;
     }
     
     /* main */

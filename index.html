@@ -12,20 +12,40 @@
   
   <!-- Latest compiled and minified CSS, from Bootstrap-->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">   
+
+  <!-- Font Awesome -->
+  <link href="https://fonts.googleapis.com/css?family=Oswald|Rubik&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
-  <header id="masthead">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container">
-      <a href="index.html" id="logo">Helen Maschmeyer</a>
-      <nav>
-        <a href="index.html">About</a>
-        <a href="portfolio.html">Portfolio</a>
-        <a href="contact.html">Contact</a>
-      </nav>
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <a class="navbar-brand" href="index.html" id="logo">Helen Maschmeyer</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+        aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+        <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="portfolio.html">Portfolio</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">About</a>
+          </li>
+        </ul>
+      </div>
+      <!-- /.navbar-collapse -->
     </div>
-  </header>
+    <!-- /.container -->
+  </nav>
+  <!-- End of navbar -->
 
   <div id="main-container" class="container">
     <section class="main-section">
