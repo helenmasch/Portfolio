@@ -7,30 +7,45 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-
   <title>Portfolio | Helen Maschmeyer</title>
-
-  <!-- Boostrap Stylesheet -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 
   <!-- Added my own CSS stylesheet -->
   <!-- css stylesheet -->
   <link rel="stylesheet" href="./assets/style.css" media="screen">
 
+  <!-- Bootstrap-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
 </head>
 
 <body>
-<!-- Navigation Bar -->
-  <header id="masthead">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container">
-      <a href="index.html" id="logo">Helen Maschmeyer</a>
-      <nav>
-        <a href="index.html">About</a>
-        <a href="portfolio.html">Portfolio</a>
-        <a href="contact.html">Contact</a>
-      </nav>
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <a class="navbar-brand" href="index.html" id="logo">Helen Maschmeyer</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+        aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+        <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="portfolio.html">Portfolio</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">About</a>
+          </li>
+        </ul>
+      </div>
+      <!-- /.navbar-collapse -->
     </div>
-  </header>
+    <!-- /.container -->
+  </nav>
+  <!-- End of navbar -->
 
   <div class="container">
     <main class="row">
@@ -41,49 +56,49 @@
           <div class="row">
             <div class="col-sm-6 col-md-12 col-lg-6">
               <a href="https://helenmasch.github.io/Word-Guess-Game/">
-              <img class="img-fluid port-image"       src="./assets/images/neon-cactus.jpg" alt="neon cactus"
-              style="width:500px;height:375px;border:0;">
+                <img class="img-fluid port-image" src="./assets/images/neon-cactus.jpg" alt="neon cactus"
+                  style="width:500px;height:375px;border:0;">
               </a>
             </div>
             <div class="col-sm-6 col-md-12 col-lg-6">
               <a href="https://helenmasch.github.io/unit-4-game/">
-              <img class="img-fluid port-image" src="./assets/images/neon-yesyes.jpg" alt="neon yesyes"
-              style="width:500px;height:375px;border:0;">
+                <img class="img-fluid port-image" src="./assets/images/neon-yesyes.jpg" alt="neon yesyes"
+                  style="width:500px;height:375px;border:0;">
               </a>
             </div>
           </div>
           <div class="row">
             <div class="col-sm-6 col-md-12 col-lg-6">
               <a href="https://helenmasch.github.io/trivia-game/">
-              <img class="img-fluid port-image" src="./assets/images/neon-hi.jpg" alt="neon hi">
+                <img class="img-fluid port-image" src="./assets/images/neon-hi.jpg" alt="neon hi">
               </a>
             </div>
             <div class="col-sm-6 col-md-12 col-lg-6">
               <a href="https://helenmasch.github.io/GifTastic/">
-              <img class="img-fluid port-image" src="./assets/images/neon-ice-cream.jpg" alt="neon ice cream">
+                <img class="img-fluid port-image" src="./assets/images/neon-ice-cream.jpg" alt="neon ice cream">
               </a>
             </div>
           </div>
           <div class="row">
             <div class="col-sm-6 col-md-12 col-lg-6">
               <a href="https://helenmasch.github.io/RPS-Multiplayer-Game/">
-              <img class="img-fluid port-image" src="./assets/images/neon-peace-sign.jpg" alt="neon peace sign">
+                <img class="img-fluid port-image" src="./assets/images/neon-peace-sign.jpg" alt="neon peace sign">
               </a>
             </div>
             <div class="row">
               <div class="col-sm-6 col-md-12 col-lg-6">
                 <a href="https://helenmasch.github.io/Project-1/">
-                <img class="img-fluid port-image" src="./assets/images/neon-peace-sign.jpg" alt="neon peace sign">
+                  <img class="img-fluid port-image" src="./assets/images/neon-peace-sign.jpg" alt="neon peace sign">
                 </a>
               </div>
-          </div>
+            </div>
         </article>
       </div>
     </main>
   </div>
   <!-- End of container -->
 
-    </section>
+  </section>
 
   </div>
 
@@ -92,6 +107,17 @@
       Copyright &copy;
     </div>
   </footer>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+
 </body>
 
 </html>
