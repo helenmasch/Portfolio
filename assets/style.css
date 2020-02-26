@@ -89,6 +89,10 @@ body {
 
      /* portfolio page */
 
+   .block-header {
+     color: whitesmoke;
+   }
+
    .work {
     position: relative;
     float: left;
